@@ -1,0 +1,34 @@
+.modalWrapper {
+    width: 600px;
+    height: 400px;
+    background: wheat;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.btnWrapper {
+    display: flex;
+}
+
+.closeModal {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.leftSideModal {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightSideModal {
+    display: flex;
+    flex-direction: column;
+}

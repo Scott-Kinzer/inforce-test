@@ -1,0 +1,34 @@
+.productItem {
+    width: 400px;
+    height: 300px;
+    background: indianred;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.wrapperBtns {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    display: flex;
+}
+.wrapperBtns button{
+    margin: 4px;
+}
+
+
+.imgItem {
+    width: 80%;
+    height: 30%;
+    position: relative;
+}
+
+.imgItem img {
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}

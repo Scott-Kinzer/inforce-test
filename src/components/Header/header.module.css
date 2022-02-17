@@ -1,0 +1,15 @@
+.header {
+    width: 100%;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
+
+.btnHeader {
+    width: 200px;
+    background: rgb(175, 136, 142);
+    color: black;
+    height: 40px;
+}

@@ -1,0 +1,8 @@
+.listPageWrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listPageWrapper div {
+    margin: 20px;
+}

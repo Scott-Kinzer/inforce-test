@@ -1,0 +1,6 @@
+.productViewItem {
+    display: flex;
+    flex-direction: column;
+    background: gold;
+    padding: 20px;
+}
